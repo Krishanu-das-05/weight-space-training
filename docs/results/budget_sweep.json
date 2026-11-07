@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "kind": "budget_sweep",
+  "status": "complete",
+  "scope": "Curated aggregates only; not raw response evidence or an independent re-grading.",
+  "questions": 30,
+  "model": "Qwen/Qwen3.5-0.8B",
+  "model_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "plan_sha256": "fada7646b5ff470720867e5cb3af4c8abc70634398154a5e568bbf37a2ea3ef2",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "budget": {
+    "accounted_tokens": 285862,
+    "completed_actual_tokens": 285862,
+    "limit": 500000,
+    "unreconciled_reserved_tokens": 0
+  },
+  "caveat": "GSM8K TRAIN is likely in Qwen's training data; this is not a capability or benchmark claim.",
+  "tables": {
+    "thinking_off": [
+      {
+        "accuracy": 0.3333333333333333,
+        "accuracy_wilson95": [
+          0.19230498083676134,
+          0.5121994835545616
+        ],
+        "cap": 512,
+        "completion_wilson95": [
+          0.36142299619873297,
+          0.6976761109230025
+        ],
+        "correct": 10,
+        "mean_tokens": 455.53333333333336,
+        "n": 30,
+        "natural_completion_rate": 0.5333333333333333,
+        "natural_completions": 16
+      },
+      {
+        "accuracy": 0.4666666666666667,
+        "accuracy_wilson95": [
+          0.30232388907699753,
+          0.638577003801267
+        ],
+        "cap": 1024,
+        "completion_wilson95": [
+          0.5212421254128504,
+          0.8333525173175619
+        ],
+        "correct": 14,
+        "mean_tokens": 621.8333333333334,
+        "n": 30,
+        "natural_completion_rate": 0.7,
+        "natural_completions": 21
+      },
+      {
+        "accuracy": 0.4666666666666667,
+        "accuracy_wilson95": [
+          0.30232388907699753,
+          0.638577003801267
+        ],
+        "cap": 2048,
+        "completion_wilson95": [
+          0.5907167384187784,
+          0.8820761185551049
+        ],
+        "correct": 14,
+        "mean_tokens": 892.0666666666667,
+        "n": 30,
+        "natural_completion_rate": 0.7666666666666667,
+        "natural_completions": 23
+      },
+      {
+        "accuracy": 0.5333333333333333,
+        "accuracy_wilson95": [
+          0.36142299619873297,
+          0.6976761109230025
+        ],
+        "cap": 4096,
+        "completion_wilson95": [
+          0.7867654163738308,
+          0.9815229762087295
+        ],
+        "correct": 16,
+        "mean_tokens": 1222.9,
+        "n": 30,
+        "natural_completion_rate": 0.9333333333333333,
+        "natural_completions": 28
+      },
+      {
+        "accuracy": 0.5333333333333333,
+        "accuracy_wilson95": [
+          0.36142299619873297,
+          0.6976761109230025
+        ],
+        "cap": 8192,
+        "completion_wilson95": [
+          0.7867654163738308,
+          0.9815229762087295
+        ],
+        "correct": 16,
+        "mean_tokens": 1495.9666666666667,
+        "n": 30,
+        "natural_completion_rate": 0.9333333333333333,
+        "natural_completions": 28
+      }
+    ],
+    "thinking_on": [
+      {
+        "accuracy": 0.0,
+        "accuracy_wilson95": [
+          0.0,
+          0.11351339317396876
+        ],
+        "cap": 512,
+        "completion_wilson95": [
+          0.0,
+          0.11351339317396876
+        ],
+        "correct": 0,
+        "mean_tokens": 512,
+        "n": 30,
+        "natural_completion_rate": 0.0,
+        "natural_completions": 0
+      },
+      {
+        "accuracy": 0.0,
+        "accuracy_wilson95": [
+          0.0,
+          0.11351339317396876
+        ],
+        "cap": 1024,
+        "completion_wilson95": [
+          0.0,
+          0.11351339317396876
+        ],
+        "correct": 0,
+        "mean_tokens": 1024,
+        "n": 30,
+        "natural_completion_rate": 0.0,
+        "natural_completions": 0
+      },
+      {
+        "accuracy": 0.0,
+        "accuracy_wilson95": [
+          0.0,
+          0.11351339317396876
+        ],
+        "cap": 2048,
+        "completion_wilson95": [
+          0.0,
+          0.11351339317396876
+        ],
+        "correct": 0,
+        "mean_tokens": 2048,
+        "n": 30,
+        "natural_completion_rate": 0.0,
+        "natural_completions": 0
+      },
+      {
+        "accuracy": 0.03333333333333333,
+        "accuracy_wilson95": [
+          0.005908590381612455,
+          0.16670390991409173
+        ],
+        "cap": 4096,
+        "completion_wilson95": [
+          0.005908590381612455,
+          0.16670390991409173
+        ],
+        "correct": 1,
+        "mean_tokens": 4047.866666666667,
+        "n": 30,
+        "natural_completion_rate": 0.03333333333333333,
+        "natural_completions": 1
+      },
+      {
+        "accuracy": 0.03333333333333333,
+        "accuracy_wilson95": [
+          0.005908590381612455,
+          0.16670390991409173
+        ],
+        "cap": 8192,
+        "completion_wilson95": [
+          0.018477023791270378,
+          0.2132345836261692
+        ],
+        "correct": 1,
+        "mean_tokens": 7932.666666666667,
+        "n": 30,
+        "natural_completion_rate": 0.06666666666666667,
+        "natural_completions": 2
+      }
+    ]
+  },
+  "paired_comparisons": [
+    {
+      "cap": 512,
+      "exact_mcnemar_p": 0.001953125,
+      "holm_adjusted_p": 0.001953125,
+      "n": 30,
+      "off_wins": 10,
+      "on_wins": 0,
+      "ties": 20
+    },
+    {
+      "cap": 1024,
+      "exact_mcnemar_p": 0.0001220703125,
+      "holm_adjusted_p": 0.0003662109375,
+      "n": 30,
+      "off_wins": 14,
+      "on_wins": 0,
+      "ties": 16
+    },
+    {
+      "cap": 2048,
+      "exact_mcnemar_p": 0.0001220703125,
+      "holm_adjusted_p": 0.0003662109375,
+      "n": 30,
+      "off_wins": 14,
+      "on_wins": 0,
+      "ties": 16
+    },
+    {
+      "cap": 4096,
+      "exact_mcnemar_p": 6.103515625e-05,
+      "holm_adjusted_p": 0.00030517578125,
+      "n": 30,
+      "off_wins": 15,
+      "on_wins": 0,
+      "ties": 15
+    },
+    {
+      "cap": 8192,
+      "exact_mcnemar_p": 6.103515625e-05,
+      "holm_adjusted_p": 0.00030517578125,
+      "n": 30,
+      "off_wins": 15,
+      "on_wins": 0,
+      "ties": 15
+    }
+  ]
+}

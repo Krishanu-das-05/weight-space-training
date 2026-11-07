@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "policy": "Frozen research sources are relocated without byte changes; reconstruct the flat workbench before running them.",
+  "files": {
+    "audit_dependencies.py": {
+      "file": "src/audit_dependencies.py",
+      "sha256": "f471d87d8c85aeb94f7004a9ec9b9dd5a7950011d992741078be20caa7a0bbd4",
+      "bytes": 346
+    },
+    "budget_sweep_analysis.py": {
+      "file": "src/budget_sweep_analysis.py",
+      "sha256": "450c2b3a2523588aafbf29be338fa60079663e31619d69e16e9700fcc72e39fc",
+      "bytes": 7698
+    },
+    "budget_sweep_generate.py": {
+      "file": "src/budget_sweep_generate.py",
+      "sha256": "eba1261358de32fad2853ac31bd2add4fb6b5b566bdcb3e861345b2d3109395c",
+      "bytes": 6861
+    },
+    "budget_sweep_io.py": {
+      "file": "src/budget_sweep_io.py",
+      "sha256": "1c99602594cfbfa018c5303e80afc29184f5020bb6cc5711f8f8fb2d7d184c36",
+      "bytes": 11461
+    },
+    "budget_sweep_outputs.py": {
+      "file": "src/budget_sweep_outputs.py",
+      "sha256": "b82a7ada6840a718380cadd4484b182fe599a0427e8e236cc89a63df3e45d169",
+      "bytes": 14349
+    },
+    "budget_sweep_plan.py": {
+      "file": "src/budget_sweep_plan.py",
+      "sha256": "f795e8f042a891c88a5c0f734a608384eb8e0a41d80cdc14a17621ad83347c9d",
+      "bytes": 5583
+    },
+    "budget_sweep_scoring.py": {
+      "file": "src/budget_sweep_scoring.py",
+      "sha256": "a780c7afe88a29e10d4da815910785c61a755948415baf023c8581a62e226ec1",
+      "bytes": 5058
+    },
+    "budget_sweep_worker.py": {
+      "file": "src/budget_sweep_worker.py",
+      "sha256": "d2881ecc6950eaa7f6c7dd0928671e9bb2e88eefa2b759c5bed8c71617613e97",
+      "bytes": 5686
+    },
+    "decode_gsm8k_train.py": {
+      "file": "src/decode_gsm8k_train.py",
+      "sha256": "33054b2e44724b11a0d7ca3b1dbb932d7547cff3c52c05b6e1044d89f6982254",
+      "bytes": 2107
+    },
+    "download_model.py": {
+      "file": "src/download_model.py",
+      "sha256": "b0335251d0353189fe86f02a7da65fbf747796b307d2a5f8118095d4add7688e",
+      "bytes": 1538
+    },
+    "edit_anatomy.py": {
+      "file": "src/edit_anatomy.py",
+      "sha256": "b7aa6a8464e127d990f7aefb5616b564eb84429cf5414fa9447dd2c4450c71ad",
+      "bytes": 6938
+    },
+    "execute_p50c_notebook.py": {
+      "file": "src/execute_p50c_notebook.py",
+      "sha256": "956d2c141df761cc54151dff94ff857e9b84d41f07cad04c15c98afd5e8c7e7b",
+      "bytes": 4306
+    },
+    "experiment_design.py": {
+      "file": "src/experiment_design.py",
+      "sha256": "c8f52d7585abc104ad3a8c6afb2abda9e135cab1fc313ecda001f9e0e47e72de",
+      "bytes": 7861
+    },
+    "experiment_runner.py": {
+      "file": "src/experiment_runner.py",
+      "sha256": "ce11a7c87a6a9820de9193dc5c512799fdec08ca3ea4ae979e43d7a34035d965",
+      "bytes": 14376
+    },
+    "finalize_budget_sweep.py": {
+      "file": "src/finalize_budget_sweep.py",
+      "sha256": "3ba1205a71377c44861e277cb2221f5e9da6b6f14a71967940902a05ad49594d",
+      "bytes": 7017
+    },
+    "finalize_p50c_completion.py": {
+      "file": "src/finalize_p50c_completion.py",
+      "sha256": "1c8f04619c1e6f2563250a110c6a7296a739dff00cc5bc270cfd7bea1b7bbc17",
+      "bytes": 6152
+    },
+    "finish_p50c_when_ready.py": {
+      "file": "src/finish_p50c_when_ready.py",
+      "sha256": "e9f58a114c571ef37f28085288440f68ba4dd4cbff83f0b2f787d86cb30ced16",
+      "bytes": 1678
+    },
+    "gsm8k_source.py": {
+      "file": "src/gsm8k_source.py",
+      "sha256": "97e17b82ab7abbd8b53a3659b7ac852dc4f220583b2ac07fe488a56b7d5ae2f1",
+      "bytes": 9533
+    },
+    "math_probe.py": {
+      "file": "src/math_probe.py",
+      "sha256": "af8c051686687ed8c9c42f75b81e8fac2d62b115cbec627803c8710872069477",
+      "bytes": 7699
+    },
+    "p50c_amended_analysis.py": {
+      "file": "src/p50c_amended_analysis.py",
+      "sha256": "61897d9f663ef83875ef164aa813a8cfe9539fbb381a284499461896df4632bf",
+      "bytes": 7534
+    },
+    "p50c_amended_generate.py": {
+      "file": "src/p50c_amended_generate.py",
+      "sha256": "adfeabb6b8fdb8a0f731cf41bea78383b084603eaf010312ec8634ded5439e16",
+      "bytes": 3858
+    },
+    "p50c_amended_scoring.py": {
+      "file": "src/p50c_amended_scoring.py",
+      "sha256": "8685367c4c393107af10565a06b46958a1c38f6f78a4c4b7ec6f9479de3032f3",
+      "bytes": 1461
+    },
+    "p50c_amended_store.py": {
+      "file": "src/p50c_amended_store.py",
+      "sha256": "2d7d9d89c6cea72f5b949e9671dd7b6ff8fbaa002c9f0fbb92a01d31a329cd59",
+      "bytes": 8489
+    },
+    "p50c_amended_worker.py": {
+      "file": "src/p50c_amended_worker.py",
+      "sha256": "1a93b086e8314a1f8f1ef0b0c0b32ffe25ab4d5e0f9f5e9f39a11eb46107b28a",
+      "bytes": 6007
+    },
+    "p50c_amendment.py": {
+      "file": "src/p50c_amendment.py",
+      "sha256": "f392ca69db5374c318d3d43c8589c5b084335d0601ebc30871594e4aa117e65a",
+      "bytes": 13157
+    },
+    "p50c_completion_analysis.py": {
+      "file": "src/p50c_completion_analysis.py",
+      "sha256": "b570f85d852085db180cbef1703a4150ab9faa2f9f02dd2ed37ff30815d34808",
+      "bytes": 6071
+    },
+    "p50c_completion_diagnostic.py": {
+      "file": "src/p50c_completion_diagnostic.py",
+      "sha256": "72b27d8d2128d61fb553806edb96df4fbb0237fd334a2736087f1cc3a81d3a78",
+      "bytes": 6720
+    },
+    "p50c_completion_generate.py": {
+      "file": "src/p50c_completion_generate.py",
+      "sha256": "103867cbe7207ad5e2487e8cc7db0c46156b609514764fe2452811bdb68f9c92",
+      "bytes": 1737
+    },
+    "p50c_completion_io.py": {
+      "file": "src/p50c_completion_io.py",
+      "sha256": "2a95fadc10097ff44c326eb175049d8096e5527cec4fade6a9cf5e7c4dda8e9b",
+      "bytes": 4983
+    },
+    "p50c_completion_outputs.py": {
+      "file": "src/p50c_completion_outputs.py",
+      "sha256": "bbb6ecf2d6880ff940eb9b526925b9c31ba23d9af49ca54aa6e81c110a4c19a8",
+      "bytes": 27707
+    },
+    "p50c_completion_plan_markdown.py": {
+      "file": "src/p50c_completion_plan_markdown.py",
+      "sha256": "c4193f6a54466d052ddb569822659f661b2dfdb4e23f174b37cd2c8c832d414d",
+      "bytes": 10850
+    },
+    "p50c_completion_worker.py": {
+      "file": "src/p50c_completion_worker.py",
+      "sha256": "d3bfc52fcefd28b24d8b6c64049b6b605270a260378534eea4ff47a1d60706f7",
+      "bytes": 7482
+    },
+    "p50c_restore_audit.py": {
+      "file": "src/p50c_restore_audit.py",
+      "sha256": "d7c62cb71723f3e0f44f1e30400ef80e668311eb745461b5efaffad8c7fa9f13",
+      "bytes": 5470
+    },
+    "plot_budget_sweep.py": {
+      "file": "src/plot_budget_sweep.py",
+      "sha256": "107b9c664f90a8c2669de9a1360850c673fdd7d75afc007020d85c25a545a605",
+      "bytes": 3764
+    },
+    "plot_p50c_completion.py": {
+      "file": "src/plot_p50c_completion.py",
+      "sha256": "9c9a2a71ae621da4933cdb235fbd40e3ced964684f46b3e940222d476df3d4de",
+      "bytes": 5944
+    },
+    "prepare_budget_plan.py": {
+      "file": "src/prepare_budget_plan.py",
+      "sha256": "20790f0952bf1d1ecaf3f73a311ab349b8e8995532d5b7813666ca914499a930",
+      "bytes": 22280
+    },
+    "prepare_p50c_completion_plan.py": {
+      "file": "src/prepare_p50c_completion_plan.py",
+      "sha256": "671d21cc0ec806bd8cbedfc4a2cc0d3cc1dba8efa6076be0b376614d885df06c",
+      "bytes": 25046
+    },
+    "probe_metrics.py": {
+      "file": "src/probe_metrics.py",
+      "sha256": "75961a6c52bb37212aaad638f90d4da583e9bc788ba5f084278093d15b88fcb0",
+      "bytes": 4087
+    },
+    "prompt_control.py": {
+      "file": "src/prompt_control.py",
+      "sha256": "d79be73da70d8b69aae9a24dd7a27b884caec845e9d085dd61069927c402957e",
+      "bytes": 9449
+    },
+    "start_notebook.py": {
+      "file": "src/start_notebook.py",
+      "sha256": "b7963ed2ba91ea0e9a42208fcdce7533c61ebcc54413a385efd5ccd12c6342b6",
+      "bytes": 1257
+    },
+    "svg_plots.py": {
+      "file": "src/svg_plots.py",
+      "sha256": "4b826e1b48ca37943a298620d6aabe0d485e9c597212aaafaf654f268fc4b191",
+      "bytes": 4577
+    },
+    "test_anatomy.py": {
+      "file": "tests/legacy/test_anatomy.py",
+      "sha256": "461389725f0e9de6a00b97efc0620a859c5da313d58167ac80b611743178a536",
+      "bytes": 4728
+    },
+    "test_budget_sweep_outputs.py": {
+      "file": "tests/legacy/test_budget_sweep_outputs.py",
+      "sha256": "2248f809eb6516e219d0f7580e2e91c10dcb2acef81c580ca050f6743821a9e9",
+      "bytes": 4092
+    },
+    "test_budget_sweep_plan.py": {
+      "file": "tests/legacy/test_budget_sweep_plan.py",
+      "sha256": "2c2ee7c036a21b3cf6b274952fcac000b2b551d4830e747c62f9a2c87301beeb",
+      "bytes": 4959
+    },
+    "test_budget_sweep_runtime.py": {
+      "file": "tests/legacy/test_budget_sweep_runtime.py",
+      "sha256": "f5146a5ba6f031e2b3916ccf9ed944278e50d0b295a23f283031c23f86ceeb42",
+      "bytes": 6916
+    },
+    "test_gsm8k_download.py": {
+      "file": "tests/legacy/test_gsm8k_download.py",
+      "sha256": "ea0a1c41d9aafe7b83627cf4e83f7a470aa7ec1d76aec1335a1abfaf47477607",
+      "bytes": 5566
+    },
+    "test_measurement.py": {
+      "file": "tests/legacy/test_measurement.py",
+      "sha256": "6eeaf851dff85a9e27f157926d25f609a23fdaced2f8b3288f2e533815a27dfb",
+      "bytes": 7448
+    },
+    "test_p50c_amendment.py": {
+      "file": "tests/legacy/test_p50c_amendment.py",
+      "sha256": "7cdfd911292944e7acc1c2bddde5dfcdf1e87f97badffa5611462d0e0dbb9ae9",
+      "bytes": 14367
+    },
+    "test_p50c_completion_outputs.py": {
+      "file": "tests/legacy/test_p50c_completion_outputs.py",
+      "sha256": "573e5f4497e54428d1b35af3c207602068a76fa4a74cf0ca376f8cf9b5e06954",
+      "bytes": 6356
+    },
+    "test_p50c_completion_plan.py": {
+      "file": "tests/legacy/test_p50c_completion_plan.py",
+      "sha256": "1ace50fe75e1abf9a3aa74d4ccb82af3b79ae047120bf4784b6ad85a0bb43324",
+      "bytes": 7218
+    },
+    "test_p50c_completion_runtime.py": {
+      "file": "tests/legacy/test_p50c_completion_runtime.py",
+      "sha256": "6e3ac99453cadef9ce6e03a393da115c63a046c8a3d676c5a07c59a69e92af62",
+      "bytes": 12973
+    },
+    "test_p50c_notebook_controller.py": {
+      "file": "tests/legacy/test_p50c_notebook_controller.py",
+      "sha256": "da75c91ee7a302d36c1f47f33a13f7a57490ca7ac2b9effc544e38dc871cf9c7",
+      "bytes": 1936
+    },
+    "test_p50c_partial_report.py": {
+      "file": "tests/legacy/test_p50c_partial_report.py",
+      "sha256": "0d1d4eaf367d8c3cd433b1d9598a887c479fa0fc399ada1731428e0db9cdf833",
+      "bytes": 3319
+    },
+    "test_p50c_restore_audit.py": {
+      "file": "tests/legacy/test_p50c_restore_audit.py",
+      "sha256": "aed1a7517ef2425c2509aa007fe44828e9cf84abcf20db1230c4331af085d2e6",
+      "bytes": 2442
+    },
+    "test_prompt_control.py": {
+      "file": "tests/legacy/test_prompt_control.py",
+      "sha256": "9d91c6eaa74cdff3528916e0c2a6562c23c407e7ea43e6e31c7d2dece9cba892",
+      "bytes": 12445
+    },
+    "test_runner.py": {
+      "file": "tests/legacy/test_runner.py",
+      "sha256": "7026f39640c9a19e9237f1c40c412839736850e58be4dcc4f8e8cf3608c996bc",
+      "bytes": 5866
+    },
+    "test_weight_space.py": {
+      "file": "tests/legacy/test_weight_space.py",
+      "sha256": "637cf58fdc0c4936afba0690ee3fe9403640352d8ced77e87c7fa58a38e1b732",
+      "bytes": 10242
+    },
+    "validate_p50c_completion.py": {
+      "file": "src/validate_p50c_completion.py",
+      "sha256": "2220e8063981e92e135979299f9e016f801b471a9753cf1c1a312b2023fad244",
+      "bytes": 10036
+    },
+    "weight_edit.py": {
+      "file": "src/weight_edit.py",
+      "sha256": "907d9de619ac0e70921bcc927e733505f1237122c63420d10535ab5dbc029b33",
+      "bytes": 8355
+    },
+    "write_partial_p50c_report.py": {
+      "file": "src/write_partial_p50c_report.py",
+      "sha256": "1d6993c07ccb812ab0f0711849c854cff330e13a3ecf33a08649c09517b48944",
+      "bytes": 11965
+    }
+  }
+}

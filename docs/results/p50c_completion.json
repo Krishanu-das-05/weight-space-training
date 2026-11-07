@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "kind": "p50c_completion",
+  "status": "complete",
+  "scope": "Curated aggregates only; not raw response evidence or an independent re-grading.",
+  "questions": 30,
+  "model": "Qwen/Qwen3.5-0.8B",
+  "model_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "plan_sha256": "e3904e1c337631c8114ff49e5c7ddfef8cd31906277457ca21702bf5bf807bfb",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "budget": {
+    "accounted_tokens": 226865,
+    "completed_actual_tokens": 218673,
+    "limit": 250000,
+    "unreconciled_reserved_tokens": 8192
+  },
+  "caveat": "GSM8K TRAIN is likely in Qwen's training data; this is not a capability or benchmark claim.",
+  "tables": {
+    "natural_completion": {
+      "edited": [
+        {
+          "cap": 512,
+          "mean_tokens": 512.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 1024,
+          "mean_tokens": 1024.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 2048,
+          "mean_tokens": 2014.9,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 4096,
+          "mean_tokens": 3927.4333333333334,
+          "n": 30,
+          "rate": 0.1,
+          "successes": 3,
+          "wilson95": [
+            0.03459988874733419,
+            0.25621082579184085
+          ]
+        },
+        {
+          "cap": 8192,
+          "mean_tokens": 7289.1,
+          "n": 30,
+          "rate": 0.3333333333333333,
+          "successes": 10,
+          "wilson95": [
+            0.19230498083676134,
+            0.5121994835545616
+          ]
+        }
+      ],
+      "original": [
+        {
+          "cap": 512,
+          "mean_tokens": 512.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 1024,
+          "mean_tokens": 1024.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 2048,
+          "mean_tokens": 2048.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 4096,
+          "mean_tokens": 4047.866666666667,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 8192,
+          "mean_tokens": 7932.666666666667,
+          "n": 30,
+          "rate": 0.06666666666666667,
+          "successes": 2,
+          "wilson95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        }
+      ]
+    },
+    "strict_correct_delivery": {
+      "edited": [
+        {
+          "cap": 512,
+          "mean_tokens": 512.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 1024,
+          "mean_tokens": 1024.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 2048,
+          "mean_tokens": 2014.9,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 4096,
+          "mean_tokens": 3927.4333333333334,
+          "n": 30,
+          "rate": 0.1,
+          "successes": 3,
+          "wilson95": [
+            0.03459988874733419,
+            0.25621082579184085
+          ]
+        },
+        {
+          "cap": 8192,
+          "mean_tokens": 7289.1,
+          "n": 30,
+          "rate": 0.3,
+          "successes": 9,
+          "wilson95": [
+            0.16664748268243793,
+            0.47875787458714947
+          ]
+        }
+      ],
+      "original": [
+        {
+          "cap": 512,
+          "mean_tokens": 512.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 1024,
+          "mean_tokens": 1024.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 2048,
+          "mean_tokens": 2048.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 4096,
+          "mean_tokens": 4047.866666666667,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 8192,
+          "mean_tokens": 7932.666666666667,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        }
+      ]
+    },
+    "thinking_closed": {
+      "edited": [
+        {
+          "cap": 512,
+          "mean_tokens": 512.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 1024,
+          "mean_tokens": 1024.0,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 2048,
+          "mean_tokens": 2014.9,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 4096,
+          "mean_tokens": 3927.4333333333334,
+          "n": 30,
+          "rate": 0.1,
+          "successes": 3,
+          "wilson95": [
+            0.03459988874733419,
+            0.25621082579184085
+          ]
+        },
+        {
+          "cap": 8192,
+          "mean_tokens": 7289.1,
+          "n": 30,
+          "rate": 0.36666666666666664,
+          "successes": 11,
+          "wilson95": [
+            0.21873920806100708,
+            0.5448643634520511
+          ]
+        }
+      ],
+      "original": [
+        {
+          "cap": 512,
+          "mean_tokens": 512.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 1024,
+          "mean_tokens": 1024.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 2048,
+          "mean_tokens": 2048.0,
+          "n": 30,
+          "rate": 0.0,
+          "successes": 0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        },
+        {
+          "cap": 4096,
+          "mean_tokens": 4047.866666666667,
+          "n": 30,
+          "rate": 0.03333333333333333,
+          "successes": 1,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        },
+        {
+          "cap": 8192,
+          "mean_tokens": 7932.666666666667,
+          "n": 30,
+          "rate": 0.06666666666666667,
+          "successes": 2,
+          "wilson95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        }
+      ]
+    }
+  },
+  "paired_comparisons": {
+    "natural_completion": [
+      {
+        "cap": 512,
+        "difference_percentage_points": 0.0,
+        "edited_wins": 0,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 30
+      },
+      {
+        "cap": 1024,
+        "difference_percentage_points": 0.0,
+        "edited_wins": 0,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 30
+      },
+      {
+        "cap": 2048,
+        "difference_percentage_points": 3.3333333333333335,
+        "edited_wins": 1,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 29
+      },
+      {
+        "cap": 4096,
+        "difference_percentage_points": 6.666666666666667,
+        "edited_wins": 2,
+        "exact_mcnemar_p": 0.5,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 28
+      },
+      {
+        "cap": 8192,
+        "difference_percentage_points": 26.666666666666668,
+        "edited_wins": 9,
+        "exact_mcnemar_p": 0.021484375,
+        "holm_adjusted_p": 0.107421875,
+        "n": 30,
+        "original_wins": 1,
+        "ties": 20
+      }
+    ],
+    "strict_correct_delivery": [
+      {
+        "cap": 512,
+        "difference_percentage_points": 0.0,
+        "edited_wins": 0,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 30
+      },
+      {
+        "cap": 1024,
+        "difference_percentage_points": 0.0,
+        "edited_wins": 0,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 30
+      },
+      {
+        "cap": 2048,
+        "difference_percentage_points": 3.3333333333333335,
+        "edited_wins": 1,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 29
+      },
+      {
+        "cap": 4096,
+        "difference_percentage_points": 6.666666666666667,
+        "edited_wins": 2,
+        "exact_mcnemar_p": 0.5,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 28
+      },
+      {
+        "cap": 8192,
+        "difference_percentage_points": 26.666666666666668,
+        "edited_wins": 8,
+        "exact_mcnemar_p": 0.0078125,
+        "holm_adjusted_p": 0.0390625,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 22
+      }
+    ],
+    "thinking_closed": [
+      {
+        "cap": 512,
+        "difference_percentage_points": 0.0,
+        "edited_wins": 0,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 30
+      },
+      {
+        "cap": 1024,
+        "difference_percentage_points": 3.3333333333333335,
+        "edited_wins": 1,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 29
+      },
+      {
+        "cap": 2048,
+        "difference_percentage_points": 3.3333333333333335,
+        "edited_wins": 1,
+        "exact_mcnemar_p": 1.0,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 29
+      },
+      {
+        "cap": 4096,
+        "difference_percentage_points": 6.666666666666667,
+        "edited_wins": 2,
+        "exact_mcnemar_p": 0.5,
+        "holm_adjusted_p": 1.0,
+        "n": 30,
+        "original_wins": 0,
+        "ties": 28
+      },
+      {
+        "cap": 8192,
+        "difference_percentage_points": 30.0,
+        "edited_wins": 10,
+        "exact_mcnemar_p": 0.01171875,
+        "holm_adjusted_p": 0.05859375,
+        "n": 30,
+        "original_wins": 1,
+        "ties": 19
+      }
+    ]
+  },
+  "text_bound_violations": [
+    {
+      "id": "gsm8k_train_02851",
+      "character_length": 669118,
+      "natural_eos_index": null,
+      "thinking_closed_at_8192": false
+    }
+  ],
+  "amendment_sha256": "faf77e94709253d5c1fe07575eebae4488d22ce97e1c27edc796bd02cb22f625",
+  "legacy_11_outcomes_unchanged": true,
+  "primary_at_8192_clears_holm_005": false,
+  "token_248046_counts": {
+    "edited": {
+      "responses_with_248046": 10,
+      "occurrences": 10
+    },
+    "original": {
+      "responses_with_248046": 2,
+      "occurrences": 2
+    }
+  }
+}
