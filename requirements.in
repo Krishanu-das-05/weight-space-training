@@ -1,0 +1,11 @@
+# Windows x64 / Python 3.12. Resolve torch using the official cu130 index.
+torch==2.14.1+cu130
+transformers==5.20.2
+huggingface-hub==2.3.0
+safetensors==0.8.0
+ipykernel==7.4.0
+jupyterlab==4.6.4
+
+# Local development security check, not required for model inference.
+pip-audit==2.10.1
+truststore==0.10.5
